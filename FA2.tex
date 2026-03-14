@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+\begin{document}
+
+\section*{Calculus Assignment Solutions}
+
+\begin{enumerate}
+  \item The demand equation is
+  \[
+    q=-0.5p+140.
+  \]
+  Revenue is
+  \[
+    R(p)=pq=p(-0.5p+140)=-0.5p^2+140p.
+  \]
+  Since this parabola opens downward, its maximum is at
+  \[
+    p=\frac{-b}{2a}=\frac{-140}{2(-0.5)}=140.
+  \]
+  So the best price is \(\$140\) per buggy. Then
+  \[
+    q=-0.5(140)+140=70,
+  \]
+  and maximum monthly revenue is
+  \[
+    R_{\max}=140\cdot 70=9800.
+  \]
+  \[
+    \boxed{\text{Price }=\$140,\quad \text{Largest monthly revenue }=\$9800.}
+  \]
+
+  \item Find an exponential function through \((2,36)\) and \((4,324)\).
+
+  Let \(f(x)=Ab^x\). Then
+  \[
+    Ab^2=36,\qquad Ab^4=324.
+  \]
+  Divide equations:
+  \[
+    b^2=\frac{324}{36}=9 \implies b=3.
+  \]
+  Then
+  \[
+    A=\frac{36}{3^2}=4.
+  \]
+  \[
+    \boxed{f(x)=4\cdot 3^x.}
+  \]
+
+  \item Solve \(6^{3x+1}=30\) using logarithms.
+  \[
+    3x+1=\log_6(30)=\frac{\ln 30}{\ln 6}.
+  \]
+  \[
+    x=\frac{\frac{\ln 30}{\ln 6}-1}{3}\approx 0.2994.
+  \]
+  \[
+    \boxed{x\approx 0.2994}
+  \]
+
+  \item Continuous compounding:
+  \[
+    A=Pe^{rt},\quad 700=500e^{0.10t}.
+  \]
+  \[
+    \frac{700}{500}=e^{0.10t}\implies 1.4=e^{0.10t}
+    \implies t=\frac{\ln(1.4)}{0.10}\approx 3.3647.
+  \]
+  \[
+    \boxed{t\approx 3.3647\text{ years}}
+  \]
+
+  \item For a \(\$5000\) investment at \(10\%\) continuously compounded:
+  \[
+    f(t)=5000e^{0.10t}.
+  \]
+  \[
+    \boxed{f(t)=5000e^{0.10t}}
+  \]
+
+  \item Find \(f(x)=Ab^x\), given \(f(0)=4.5\), and \(f\) triples every half-unit in \(x\).
+
+  From \(f(0)=A=4.5\), so \(A=4.5\).
+
+  Triples every \(0.5\) means:
+  \[
+    f(x+0.5)=3f(x)\implies Ab^{x+0.5}=3Ab^x\implies b^{0.5}=3\implies b=9.
+  \]
+  Therefore
+  \[
+    \boxed{f(x)=4.5\cdot 9^x.}
+  \]
+\end{enumerate}
+
+\end{document}
